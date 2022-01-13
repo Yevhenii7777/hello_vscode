@@ -1,11 +1,25 @@
 header {
-	background-color: rgb(184, 23, 23);
+  background-color: #b81717;
+}
+
+h1 {
+  color: blue;
 }
 
 body {
-	font-size: 20px;
+  font-size: 20px;
 }
 
 body div {
-	font-size: 10px;
+  font-size: 10px;
+}
+
+.red {
+  color: red;
+}
+
+@media (max-width: 767px) {
+  .red {
+    border: 0;
+  }
 }
